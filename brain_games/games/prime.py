@@ -2,6 +2,7 @@ import random
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def generate_round_data():
     integer = random.randint(1, 100)
     question = f'{integer}'

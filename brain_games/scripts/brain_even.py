@@ -1,9 +1,13 @@
 import random
+
 import prompt
+
 from brain_games.cli import welcome_user
+
 
 def get_random_number():
     return random.randint(1, 100)
+
 
 def main():
     name = welcome_user()
@@ -21,7 +25,10 @@ def main():
             print('Correct!')
             counter += 1
         else:
-            print(f"'{name_number}' is wrong answer ;(. Correct answer was '{n}'")
+            print(
+                f"'{name_number}' is wrong answer ;(. "
+                f"Correct answer was '{n}'"
+            )
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')

@@ -2,6 +2,7 @@ import random
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
+
 def generate_round_data():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
